@@ -1,29 +1,10 @@
-@font-face {
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Oswald Light'), local('Oswald-Light'), url(Oswald-Light.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Oswald Regular'), local('Oswald-Regular'), url(Oswald-Regular.woff) format('woff');
-}
-
-@font-face {
-    font-family: 'Oswald';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Oswald Bold'), local('Oswald-Bold'), url(Oswald-Bold.woff) format('woff');
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 body {
     padding: 0px;
     margin: 20px 0px 0px 0px;
     color: white;
-    font-family: 'Oswald';
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     background-color: white;
@@ -109,8 +90,6 @@ img {
 #keypad {
     position: relative;
 }
-
-#keypad>img {}
 
 #options {
     margin: 0px auto;
